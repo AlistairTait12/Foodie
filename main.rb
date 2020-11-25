@@ -63,7 +63,7 @@ olive_oil = Ingredient.new("olive oil", "cooking oils", 0, 0, 0, 0, 0, 0, 0)
 worcestershire_sauce = Ingredient.new("worcestershire sauce", "condiments", 0, 0, 0, 0, 0, 0, 0)
 
 
-# HERE BEGINS THE COMPILING OF THE MEALS
+# HERE BEGINS THE COMPILING OF THE MEALS, below is a test meal
 spag_bol = Meal.new("Spaghetti Bolognese", "dinner", [onion, pepper, mushroom, garlic_clove, beef_stock_cube, mince, paprika, olive_oil, worcestershire_sauce], 10, 30, ["family favorite"])
 
 puts spag_bol.user_tags
